@@ -14,7 +14,7 @@ cursor = db.cursor()
 # write your query here
 query = ''' SELECT FirstName, LastName, Email
             FROM customers
-            where email LIKE "%gmail%"'''
+            where email LIKE "%@gmail.com"'''
 
 
 try:
